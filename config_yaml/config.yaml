@@ -1,0 +1,13 @@
+artifacts_root: artifacts
+
+data_injection: 
+  dir_root: artifacts/data_injection
+  file_location: /home/leksman/Downloads/Plant_Vilage_dataset
+  main_data: artifacts/data_injection/dataset
+
+
+
+data_validation:
+  dir_root: artifacts/data_validation
+  data_location: artifacts/data_injection/dataset/Plant_Vilage_dataset/train_test_data/PLATE_train
+  STATUS_FILE: artifacts/data_validation/status.txt

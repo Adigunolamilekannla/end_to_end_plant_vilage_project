@@ -1,0 +1,13 @@
+mlflow
+notebook
+numpy
+matplotlib
+python-box
+pyYAML
+tqdm
+ensure
+joblib
+types-pyYAML
+Flask
+Flask-Cors
+pytorch
