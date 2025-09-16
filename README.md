@@ -61,7 +61,7 @@ The system will then instantly respond with:
 ## 💻 Tech Stack  
 
 - **Python** 🐍  
-- **TensorFlow / Keras** for Deep Learning  
+- **Pytorch** for Deep Learning  
 - **Flask / FastAPI** for Web App  
 - **MLflow / DVC** for Experiment Tracking  
 - **Kaggle Dataset (PlantVillage)** 🌱  

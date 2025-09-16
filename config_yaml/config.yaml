@@ -11,3 +11,12 @@ model_trainer:
   dir_root: artifacts/model_trainer
   train_data_root: artifacts/data_injection/dataset/Plant_Vilage_dataset/train_test_data/PLATE_train
   trained_model: artifacts/model_trainer/cnn_model.pth
+
+
+model_evaluation:
+  dir_root: artifacts/model_evaluation
+  test_data_root: artifacts/data_injection/dataset/Plant_Vilage_dataset/train_test_data/PLATE_test
+  load_trained_model: artifacts/model_trainer/cnn_model.pth
+  classification_report_loc: artifacts/model_trainer/classification_report.csv
+  mlflow_url: "https://dagshub.com/leksman/end_to_end_plant_vilage_project.mlflow"
+
