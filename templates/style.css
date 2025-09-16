@@ -1,0 +1,22 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+  color: #2d6a4f;
+}
+
+.btn-primary {
+  background-color: #1b4332;
+  border-color: #1b4332;
+}
+
+.btn-primary:hover {
+  background-color: #40916c;
+  border-color: #40916c;
+}
+
+.card {
+  border-radius: 15px;
+}
