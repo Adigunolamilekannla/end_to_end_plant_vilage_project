@@ -7,7 +7,7 @@ data_injection:
 
 
 
-data_validation:
-  dir_root: artifacts/data_validation
-  data_location: artifacts/data_injection/dataset/Plant_Vilage_dataset/train_test_data/PLATE_train
-  STATUS_FILE: artifacts/data_validation/status.txt
+model_trainer:
+  dir_root: artifacts/model_trainer
+  train_data_root: artifacts/data_injection/dataset/Plant_Vilage_dataset/train_test_data/PLATE_train
+  trained_model: artifacts/model_trainer/cnn_model.pth

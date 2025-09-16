@@ -1,1 +1,7 @@
-key: value
+model_params:
+  num_epoch: 10
+  learning_rate: 0.001
+  num_classes: 38
+  batch_size: 32
+  num_workers: 4
+  shuffle: True

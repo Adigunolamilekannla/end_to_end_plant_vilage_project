@@ -13,14 +13,3 @@ class DataInjectionPipeLine:
 
 
 
-stage_name = "Data Injection Pipeline"
-
-if __name__ == "__main__":
-    try:
-        logger.info(f">>>>>>>>>>> Started {stage_name} <<<<<<<<<<<<")
-        obj = DataInjectionPipeLine()
-        ata_injection = obj.iniciate_data_injection()
-        logger.info(f">>>>>>>>>>> {stage_name} Completed <<<<<<<<<<<<")
-    except Exception as e:
-        raise e    
-        
