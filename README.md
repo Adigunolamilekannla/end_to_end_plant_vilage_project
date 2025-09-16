@@ -51,9 +51,8 @@ The system will then instantly respond with:
 ## 🚀 Features  
 
 - Real-time plant disease detection  
-- Upload image or capture via live camera  
+- Upload image 
 - Instant feedback with health status  
-- Suggested actions for diseased plants  
 - End-to-end ML pipeline with MLOps practices  
 
 ---
